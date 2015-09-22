@@ -56,7 +56,7 @@
         color:#5E5E5E !important;
       }
 
-    .login_button{
+    .blue_button{
       color: #fff;
       font-size: 16px;
       background-color: #6ECACE;
@@ -95,20 +95,138 @@
 
     .slide_section{
       clear: both;
-      height: 317px;
+      height: 500px;
       width: 260px;
-      margin: 108px auto 20px auto;
+      margin: 0 auto;
+      top: 100px;
     }
 
-    .slide_buttons{
-      width: 100px;
-      height: 10px;
+    .onboarding_box{
+      position: relative;
     }
-      .slide_button{
-        background-color: #6ECACE;
-        width: 10px;
-        height: 10px;
-        border-radius: 50px;
+
+      .onboarding_box img{
+        display: block;
+        margin: 0 auto 80px auto;
       }
 
+      .onboarding_box p{
+        color: #848484;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      .box_fix_padding{
+        margin-bottom: 20px !important;
+      }
+
+      .slider-pager{
+        bottom: 100px !important;
+      }
+        .slider-pager .slider-pager-page{
+          color:#6ECACE;
+          opacity: 1 !important;
+          margin: 0px 10px !important;
+        }
+
+        .slider-pager .slider-pager-page.active{
+          color:#FFDD26 !important;
+        }
+
+        .blue_button_fix{
+          position: absolute;
+          bottom: -160px;
+        }
+
 /* End Onboarding Section*/
+
+/* ColorBlind */
+  .colorblind{
+    position: relative;
+  }
+
+    .yellow_title_container{
+      width: 100%;
+      height: 44px;
+      background-color: #FFDD26;
+    }
+
+    .yellow_title_container p{
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px 0px;
+    }
+
+    .colorblind_content{
+      position: relative;
+      width: 100%;
+    }
+
+    .colorblind_content img{
+      margin: 40px auto 20px auto;
+      display: block;
+    }
+
+    .divider{
+      width: 80%;
+      height: 1px;
+      background-color: rgba(230, 230, 230, 0.6);
+      margin: 0 auto;
+    }
+
+    .colorblind_question{
+      position: relative;
+      margin-top: 40px;
+    }
+
+      .colorblind_question p{
+        color:#848484;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+
+      .colorblind_question ul{
+        list-style: none;
+        margin: 60px auto 0px auto;
+        width: 300px;
+        height: 40px;
+      }
+
+      .colorblind_question ul li{
+        float: left;
+        width: 100px;
+        height: 27px;
+      }
+
+      .colorblind_question ul li p{
+        text-align: center;
+        color: #808080;
+        font-size: 54px;
+        font-weight: bold;
+      }
+
+      .item_borders{
+        width: 98px !important;
+        border-right: 1px solid rgba(230, 230, 230, 1);
+        border-left: 1px solid rgba(230, 230, 230, 1);
+      }
+/* End ColorBlind*/
+
+/* Mood Test*/
+  .moodtest_container{
+    position: relative;
+    width: 100%;
+  }
+
+    .steps_number{
+      color:#6ECACE;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 18px;
+    }
+/* End Mood Test*/

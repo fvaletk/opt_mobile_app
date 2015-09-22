@@ -1,10 +1,26 @@
 angular.module('starter.controllers', [])
 
-.controller('LoginCtrl', function($scope) {})
+.controller('LoginCtrl',['$scope', '$location', function($scope, $location) {
+  $scope.submitForm = function(){
+    $location.path( '/onboarding' );
+  };
+}])
 
-.controller('OnboardingCtrl', function($scope) {})
+.controller('OnboardingCtrl', [ '$scope', function($scope) {
+  $scope.finishOnboarding = function(){
+    $location.path( '/login' );
+  };
+}])
+
+.controller('MoodTestCtrl', [ '$scope', function($scope) {
+  $scope.steps = [1,2,3];
+}])
 
 .controller('DashCtrl', function($scope) {})
+
+.controller('ColorBlindCtrl', function($scope) {
+
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
