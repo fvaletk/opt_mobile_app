@@ -5,21 +5,30 @@
 
     <ion-slide-box on-slide-changed="slideHasChanged($index)" class="slide_section">
       <ion-slide>
-        <div class="box blue"><h1>BLUE</h1></div>
+        <div class="onboarding_box">
+          <img src="../img/ico_onb_1.png">
+          <p>Completa tus tests diariamente y realiza las actividades que te sean asignadas.</p>
+        </div>
       </ion-slide>
       <ion-slide>
-        <div class="box yellow"><h1>YELLOW</h1></div>
+        <div class="onboarding_box">
+          <img src="../img/ico_onb_2.png">
+          <p>Tienes un avatar que podras personalizar con nuevos accesorios que ganarás al completar tus tests y actividades.</p>
+        </div>
       </ion-slide>
       <ion-slide>
-        <div class="box pink"><h1>PINK</h1></div>
+        <div class="onboarding_box">
+          <img src="../img/ico_onb_3.png" class="box_fix_padding">
+          <p>Si alguna vez tienes una situacion que quieras compartir de manera privada con el consejero de tu colegio puedes enviarle un mensaje o acordar una cita.</p>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="onboarding_box">
+          <img src="../img/ico_onb_4.png">
+          <p>Todos los dias podras encontrar divertidos memes para agregar a tu lista de favoritos o compartir en tus redes sociales.</p>
+          <button class="blue_button blue_button_fix" ng-click="finishOnboarding()">¡Entiendo Todo!</button>
+        </div>
       </ion-slide>
     </ion-slide-box>
-
-    <ul class="slide_buttons">
-      <li class="slide_button"></li>
-      <li class="slide_button"></li>
-      <li class="slide_button"></li>
-      <li class="slide_button"></li>
-    </ul>
   </div>
 </div>

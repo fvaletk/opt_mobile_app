@@ -41,7 +41,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('onboarding', {
     url: '/onboarding',
     templateUrl: 'templates/onboarding/onboarding.html',
-    controller: 'LoginCtrl'
+    controller: 'OnboardingCtrl'
+  })
+
+  .state('colorblind', {
+    url: '/colorblind_test',
+    templateUrl: 'templates/colorblind/colorblind_test.html',
+    controller: 'ColorBlindCtrl'
+  })
+
+  .state('moodtest', {
+    url: '/moodtest',
+    templateUrl: 'templates/moodtest/moodtest.html',
+    controller: 'MoodTestCtrl'
   })
 
   // setup an abstract state for the tabs directive
